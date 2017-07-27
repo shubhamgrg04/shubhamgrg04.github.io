@@ -35,6 +35,7 @@ jQuery(document).ready(function($) {
         "https://medium.com/feed/@shubhamgrg04",
         
         {
+        ssl : true,
         // how many entries do you want?
         // default: 4
         // valid values: any integer
