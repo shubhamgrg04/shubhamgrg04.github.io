@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-    $.getJSON("http://codeforces.com/api/user.info?handles=shubhamgrg04", function(data){
+    $.getJSON("https://codeforces.com/api/user.info?handles=shubhamgrg04", function(data){
         $('.maxrating').text(data.result[0].maxRating);
     });
 
