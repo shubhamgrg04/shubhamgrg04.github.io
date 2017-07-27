@@ -1,8 +1,10 @@
 jQuery(document).ready(function($) {
 
+    /*
     $.getJSON("https://codeforces.com/api/user.info?handles=shubhamgrg04", function(data){
         $('.maxrating').text(data.result[0].maxRating);
     });
+    */
 
 
     /*======= Skillset *=======*/
