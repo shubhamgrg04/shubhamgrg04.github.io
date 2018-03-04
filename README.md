@@ -1,2 +1,1 @@
-## Personal Website
-This repository contains code of my personal website hosted <a href="https://shubhamgrg.in">here</a>.
+Here I host my personal documents for sharing.
