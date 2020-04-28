@@ -1,28 +1,16 @@
----
-layout: default
-title: "Ed."
----
-<div class="introduction">
-  <h1>hi.</h1>
-
-<p>Ed is a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme designed for textual editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and focused on legibility, durability, ease and flexibility. Our underlying technology is easy to learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our documentation</a> for installation instructions and more. To learn more about the ideas behind Ed and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To see Ed in action, we've provided some sample minimal editions for you below.</p>
-</div>
-
-<hr>
-
-<div class="toc">
-  <h2>sample texts</h2>
-  <ul class="texts">
-  {% for item in site.texts %}
-  
-    <li class="text-title">
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        {{ item.title }}
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
-
-
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function resize() {
+                document.querySelector("iframe").addEventListener( "load", function(e) {
+                    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+                } );
+            }
+            
+        </script>
+    </head>
+<body onload="resize()">
+    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2152_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/07wc_c","geo":"","time":"2004-01-01 2020-04-28"},{"keyword":"/m/0gtszpv","geo":"","time":"2004-01-01 2020-04-28"},{"keyword":"/m/09zx_p","geo":"","time":"2004-01-01 2020-04-28"},{"keyword":"/m/03lt2r","geo":"","time":"2004-01-01 2020-04-28"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=%2Fm%2F07wc_c,%2Fm%2F0gtszpv,%2Fm%2F09zx_p,%2Fm%2F03lt2r","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+</body>
+</html>
